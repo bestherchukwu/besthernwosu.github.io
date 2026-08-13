@@ -1,0 +1,22 @@
+<!DOCTYPE html><html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>CICOD SaaS AWS Architecture | Besther Nwosu</title><link rel="stylesheet" href="../assets/css/style.css"></head><body><header class="nav"><div class="container nav-inner"><a class="brand" href="../index.html">BESTHER NWOSU</a><nav><a href="../projects.html">Projects</a><a href="../architecture.html">Architecture</a></nav></div></header><main class="case"><div class="container"><a class="back" href="../architecture.html">← Architecture</a><p class="eyebrow">02 • AWS / SAAS</p><h1>CICOD SaaS on AWS Architecture</h1><p class="lead">High-level AWS architecture for SaaS application hosting, security, scalability, database services and monitoring.</p><h2>Architecture</h2><pre class="diagram">INTERNET
+   |
+DNS
+   |
+SECURITY / NETWORK CONTROLS
+   |
+LOAD BALANCER
+   |
++-------------------------+
+| APPLICATION / EC2       |
+| Application Services    |
++-------------------------+
+            |
+            v
++-------------------------+
+| RDS / MYSQL             |
+| Database Services       |
++-------------------------+
+       |             |
+       v             v
+   BACKUP         MONITORING
+   / STORAGE      CLOUDWATCH</pre><div class="case-grid"><div><h2>Architecture layers</h2><h3>Network</h3><p>VPC, subnets, routing and security controls provide controlled connectivity between application, database and administrative components.</p><h3>Application</h3><p>Compute resources host SaaS application workloads with appropriate availability and scaling considerations.</p><h3>Database</h3><p>RDS/MySQL provides persistent application data services with backup and recovery considerations.</p><h3>Security & monitoring</h3><p>IAM, security groups, logging, CloudTrail and CloudWatch support access control, visibility and operational response.</p><h2>My contribution</h2><ul><li>Designed and managed AWS infrastructure.</li><li>Supported EC2 and RDS infrastructure.</li><li>Supported networking, security and application hosting.</li><li>Performed capacity planning, monitoring and production troubleshooting.</li></ul></div><aside class="meta"><strong>AWS components</strong><span class="tag">VPC</span><span class="tag">EC2</span><span class="tag">RDS</span><span class="tag">S3</span><span class="tag">EBS</span><span class="tag">IAM</span><span class="tag">CloudWatch</span><span class="tag">CloudTrail</span></aside></div></div></main><footer><div class="container">Sanitized architecture for professional portfolio use.</div></footer></body></html>
