@@ -1,0 +1,30 @@
+<!DOCTYPE html><html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Technical Evidence | Besther Nwosu</title><link rel="stylesheet" href="assets/css/style.css"></head><body><header class="nav"><div class="container nav-inner"><a class="brand" href="index.html">BESTHER NWOSU</a><nav><a href="index.html">Home</a><a href="projects.html">Projects</a><a href="architecture.html">Architecture</a><a href="cv.html">CV</a></nav></div></header><section class="page-hero"><div class="container"><p class="eyebrow">SANITIZED TECHNICAL EVIDENCE</p><h1>How I work in production infrastructure.</h1><p>Representative evidence patterns are provided without credentials, private IPs, customer data, proprietary source code or security-sensitive configuration.</p></div></section><main class="section"><div class="container"><div class="evidence"><h2>01 — Linux operations</h2><p>Representative operational checks used during server administration and troubleshooting.</p><pre><code>hostnamectl
+cat /etc/os-release
+uname -r
+df -Th
+free -h
+systemctl --failed
+ss -lntp
+journalctl -p err -b</code></pre></div><div class="evidence"><h2>02 — Network & connectivity validation</h2><p>Sanitized workflow for validating DNS, reachability and service ports without exposing real endpoints.</p><pre><code>dig example.internal
+getent hosts service.example
+ping -c 4 &lt;SANITIZED_HOST&gt;
+traceroute &lt;SANITIZED_HOST&gt;
+curl -vk https://&lt;SANITIZED_ENDPOINT&gt;
+nc -vz &lt;SANITIZED_HOST&gt; &lt;PORT&gt;</code></pre></div><div class="evidence"><h2>03 — Monitoring model</h2><p>Infrastructure and application observability is separated into platform health, service availability and application telemetry.</p><pre><code>Infrastructure: CPU | Memory | Disk | Network
+Services:      Process | Port | Endpoint | SLA
+Application:   Errors | Transactions | Availability
+Database:      Connections | Storage | Replication | Health
+Alerting:      Threshold → Incident → Escalation → Recovery</code></pre></div><div class="evidence"><h2>04 — DR runbook pattern</h2><p>A sanitized failover sequence used to validate recovery readiness.</p><pre><code>1. Confirm incident and recovery decision
+2. Validate DR infrastructure health
+3. Redirect approved DNS / traffic
+4. Start or validate DR reverse proxy
+5. Validate application services
+6. Validate database connectivity
+7. Execute functional smoke tests
+8. Record recovery time and issues
+9. Communicate service restoration
+10. Conduct post-incident review</code></pre></div><div class="evidence"><h2>05 — Infrastructure automation</h2><p>Automation is used to reduce manual operations and improve repeatability. The CV records a 40% reduction in deployment time through automation and a 30% reduction in manual processes.</p><pre><code>Infrastructure as Code
+        ↓
+Plan → Review → Apply
+        ↓
+Validation → Monitoring → Runbook</code></pre></div><div class="notice"><strong>Professional-use note:</strong> These examples intentionally use placeholders and generic commands. They are portfolio evidence of engineering practice, not copies of customer configurations.</div></div></main><footer><div class="container">© 2026 Besther Nwosu</div></footer></body></html>
