@@ -1,0 +1,54 @@
+BESTHER NWOSU
+Cloud Infrastructure Engineer & IT Leader
+
+LinkedIn: https://www.linkedin.com/in/besther-nwosu-mit/
+
+PROFILE
+A dynamic IT leader with 15 years of experience in managing and optimizing IT infrastructure and cloud solutions. Cloud Engineer and Solution Architect with expertise in AWS, GCP, DigitalOcean, Microsoft Azure, OpenStack and Genesys.
+
+PROFESSIONAL SUMMARY
+Experienced IT leader with expertise in managing and optimizing IT infrastructure and cloud solutions. Skilled in designing and implementing scalable, high-availability systems and robust security measures. Master's in Information Technology. ISO 27001 lead implementer.
+
+PROFESSIONAL EXPERIENCE
+
+Head of IT/Cloud Infrastructure — Crown Interactive Limited
+May 2023–Present
+- Manage cloud operations and Day-2 operational support governance across AWS, Azure and GCP/hybrid environments.
+- Lead cloud and network engineering teams.
+- Manage incident, problem, change, monitoring and disaster recovery processes.
+- Maintain operational documentation and control frameworks supporting ISO 27001, SOC 2, GDPR and other requirements.
+- Collaborate with cybersecurity teams on risk and audits.
+- Manage vendors, SLAs, infrastructure budgeting and engineering development.
+
+Cloud Support Engineer — CICOD Technology Limited UK (Remote)
+April 2023–February 2024
+- Day-2 support for cloud-hosted workloads, monitoring, health checks, incident response, recovery, restarts and production support.
+- Supported upgrades, patching, maintenance and cloud migration/implementation projects.
+
+Senior Cloud Infrastructure Engineer / IT Governance & Compliance — Crown Interactive Limited
+September 2021–May 2023
+- Infrastructure optimization, AWS EC2/S3/RDS deployment, ISO 27001 implementation and automation.
+- CV-recorded outcomes include 40% uptime improvement, 25% operational cost reduction and 30% reduction in manual processes.
+
+Cloud Infrastructure Engineer / IT Governance & Compliance — Crown Interactive Limited
+August 2016–September 2021
+- AWS cost optimization, VMware and Hyper-V, data-center operations and network troubleshooting.
+
+IT Project Manager — Tozaza Media Limited
+December 2014–July 2016
+- Live streaming and video-conference implementations and technical support.
+
+IT Support Engineer / IT Analyst — Crown Interactive Limited
+July 2010–October 2014
+- Hardware/software troubleshooting, LAN administration and system upgrades.
+
+EDUCATION
+Master in Information Technology — University of Lagos, December 2023
+B.Sc. Computer Science/Physics — University of Nigeria, January 2010
+National Diploma, Computer Science — University of Nigeria, September 2004
+
+PROFESSIONAL TRAINING
+AWS Essentials Training; AWS Certified Solutions Architect – Associate; Linux for Cloud & DevOps Engineers; Linux Administration; Cisco networking training.
+
+KEY SKILLS
+AWS, GCP, Microsoft Azure, DigitalOcean, OpenStack; servers, storage, networking; disaster recovery and business continuity; ISO 27001, NDPR; IAM, Security Groups; team leadership; vendor management; Terraform; Bitbucket; Bamboo CI/CD; MySQL/RDS; Zabbix; CloudWatch; Sentry; UptimeRobot; PulseTic.
