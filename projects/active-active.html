@@ -1,0 +1,10 @@
+<!DOCTYPE html><html><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Active-Active Infrastructure | Besther Nwosu</title><link rel="stylesheet" href="../assets/css/style.css"></head><body><header class="nav"><div class="container nav-inner"><a class="brand" href="../index.html">BESTHER NWOSU</a><nav><a href="../projects.html">Projects</a><a href="../architecture.html">Architecture</a></nav></div></header><main class="case"><div class="container"><a class="back" href="../projects.html">← Projects</a><p class="eyebrow">HIGH AVAILABILITY</p><h1>Active-Active Infrastructure Architecture</h1><p class="lead">Architecture initiative focused on improving application availability and reducing infrastructure single points of failure.</p><h2>Key activities</h2><ul><li>Reviewed existing architecture and failure points.</li><li>Assessed application and database dependencies.</li><li>Evaluated DNS, traffic distribution and network requirements.</li><li>Assessed database replication and failover requirements.</li><li>Developed implementation and testing considerations.</li></ul><h2>Architecture concept</h2><pre class="diagram">USERS → DNS / TRAFFIC DISTRIBUTION
+             |
+       +-----+-----+
+       |           |
+       v           v
+   ENVIRONMENT A ↔ ENVIRONMENT B
+       |           |
+       +-----+-----+
+             |
+        DATABASE LAYER</pre><h2>Outcome</h2><p>Established an architectural approach for improved availability, resilience and fault tolerance.</p></div></main></body></html>
